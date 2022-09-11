@@ -12,7 +12,7 @@
                     "name": "PUID"
                 },
                 {
-                    "default": "100",
+                    "default": "1000",
                     "label": "PGID",
                     "name": "PGID"
                 },
@@ -1546,13 +1546,13 @@
             ],
             "description": "[Emby](https://emby.media/) organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
             "env": [{
-                    "default": "1024",
+                    "default": "1000",
                     "description": "for GroupID",
                     "label": "PUID",
                     "name": "PUID"
                 },
                 {
-                    "default": "100",
+                    "default": "1000",
                     "description": "for UserID",
                     "label": "PGID",
                     "name": "PGID"
@@ -1599,7 +1599,6 @@
             "env": [{
                     "default": "1024",
                     "description": "for GroupID",
-                    "label": "PUID",
                     "name": "PUID"
                 },
                 {
