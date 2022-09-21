@@ -7175,6 +7175,7 @@
             "name": "vaultwarden",
             "note": "This project is not associated with the Bitwarden project nor 8bit Solutions LLC.",
             "platform": "linux",
+            "privileged": true,
             "ports": [
                 ":80/tcp"
             ],
