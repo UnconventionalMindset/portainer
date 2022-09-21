@@ -7175,7 +7175,6 @@
             "name": "vaultwarden",
             "note": "This project is not associated with the Bitwarden project nor 8bit Solutions LLC.",
             "platform": "linux",
-            "privileged": true,
             "ports": [
                 ":80/tcp"
             ],
@@ -7183,7 +7182,7 @@
             "title": "Vaultwarden",
             "type": 1,
             "volumes": [{
-                "bind": "/portainer/Files/AppData/Config/Vaultwarden",
+                "bind": "/var/home/core/apps-volume/docker/apprise-api/vaultwarden/config",
                 "container": "/config"
             }]
         },
@@ -8003,13 +8002,13 @@
             "note": "This project is not associated with the Bitwarden project nor 8bit Solutions LLC.",
             "platform": "linux",
             "ports": [
-                ":80/tcp"
+                ":8124/tcp"
             ],
             "restart_policy": "unless-stopped",
             "title": "Bitwarden RS",
             "type": 1,
             "volumes": [{
-                "bind": "/portainer/Files/AppData/Config/Bitwarden-rs",
+                "bind": "/var/home/core/apps-volume/docker/apprise-api/bitwarden-rs",
                 "container": "/config"
             }]
         },
