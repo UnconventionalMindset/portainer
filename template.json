@@ -8002,7 +8002,7 @@
             "note": "This project is not associated with the Bitwarden project nor 8bit Solutions LLC.",
             "platform": "linux",
             "ports": [
-                ":8124/tcp"
+                ":80/tcp"
             ],
             "restart_policy": "unless-stopped",
             "title": "Bitwarden RS",
