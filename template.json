@@ -7176,15 +7176,21 @@
             "note": "This project is not associated with the Bitwarden project nor 8bit Solutions LLC.",
             "platform": "linux",
             "ports": [
-                ":80/tcp"
+                "8124:80/tcp"
             ],
             "restart_policy": "unless-stopped",
             "title": "Vaultwarden",
             "type": 1,
-            "volumes": [{
-                "bind": "/var/home/core/apps-volume/docker/apprise-api/vaultwarden/config",
-                "container": "/config"
-            }]
+            "volumes": [
+                {
+                    "bind": "/var/home/core/apps-volume/docker/apprise-api/vaultwarden/config",
+                    "container": "/config"
+                },
+                {
+                    "bind": "/var/home/core/apps-volume/docker/apprise-api/vaultwarden/data",
+                    "container": "/data"
+                }
+            ]
         },
         {
             "categories": [
