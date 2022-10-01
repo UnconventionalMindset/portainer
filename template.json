@@ -2573,16 +2573,16 @@
                     "name": "TZ"
                 },
                 {
-                    "default": "192.168.0.5",
+                    "default": "192.168.31.200",
                     "description": "Set the autodiscovery response domain or IP address.",
                     "label": "JELLYFIN_PublishedServerUrl",
                     "name": "JELLYFIN_PublishedServerUrl"
                 }
             ],
             "image": "linuxserver/jellyfin:latest",
-            "logo": "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true",
+            "logo": "https://jellyfin.org/images/banner-dark.svg",
             "name": "Jellyfin",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /var/home/core/apps-volume/docker/jellyfin/config<br>mkdir -p /var/home/core/apps-volume/docker/jellyfin/data/tvshows<br>mkdir -p /var/home/core/apps-volume/docker/jellyfin/data/movies</p>",
+            "note": "Portainer App Templates by <a href='https://github.com/UnconventionalMindset/portainer' target='_blank'>Unconventional Mindset</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /var/home/core/apps-volume/docker/jellyfin/config<br>mkdir -p /var/home/core/apps-volume/docker/jellyfin/data/tvshows<br>mkdir -p /var/home/core/apps-volume/docker/jellyfin/data/movies</p>",
             "platform": "linux",
             "ports": [
                 "8096:8096/tcp",
@@ -2590,6 +2590,7 @@
                 "7359:7359/udp",
                 "1900:1900/udp"
             ],
+            "privileged": true,
             "restart_policy": "unless-stopped",
             "title": "Jellyfin",
             "type": 1,
