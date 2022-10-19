@@ -2606,6 +2606,12 @@
                     "bind": "/var/home/core/apps-volume/docker/jellyfin/data/movies",
                     "container": "/data/movies"
                 }
+            ],
+            "devices": [
+                {
+                    "bind": "/dev/dri/renderD128",
+                    "container": "/dev/dri/renderD128"
+                }
             ]
         },
         {
