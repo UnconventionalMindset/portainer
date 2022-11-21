@@ -1,5 +1,13 @@
-# portainer
-Templates for Portainer, primarily combined from: 
+# Portainer templates
+
+## Docker Compose templates
+
+To deploy stacks programmatically.
+
+## APP templates
+
+To deploy apps through the interface.
+Primarily combined from: 
 
 https://raw.githubusercontent.com/dnburgess/self-hosted-template/master/template.json
 
