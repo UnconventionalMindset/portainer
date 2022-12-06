@@ -2377,13 +2377,13 @@
         {
             "description": "[Heimdall](https://heimdall.site) is a way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.",
             "env": [{
-                    "default": "0",
+                    "default": "1000",
                     "description": "for GroupID",
                     "label": "PUID",
                     "name": "PUID"
                 },
                 {
-                    "default": "0",
+                    "default": "1000",
                     "description": "for UserID",
                     "label": "PGID",
                     "name": "PGID"
@@ -2398,7 +2398,7 @@
             "image": "linuxserver/heimdall:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png",
             "name": "Heimdall",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /var/home/core/apps-volume/docker/heimdall/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /var/mnt/shared/apps-volume/docker/heimdall/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp",
@@ -2408,7 +2408,7 @@
             "title": "Heimdall",
             "type": 1,
             "volumes": [{
-                "bind": "/var/home/core/apps-volume/docker/heimdall/config",
+                "bind": "/var/mnt/shared/apps-volume/docker/heimdall/config",
                 "container": "/config"
             }]
         },
