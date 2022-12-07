@@ -135,7 +135,7 @@
             "image": "linuxserver/apprise-api:latest",
             "logo": "https://raw.githubusercontent.com/caronc/apprise-api/master/apprise_api/static/logo.png",
             "name": "Apprise-api",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/apprise-api/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/apprise-api/config</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -144,7 +144,7 @@
             "title": "Apprise-api",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/apprise-api/config",
+                "bind": "/mnt/shared/apps/docker/apprise-api/config",
                 "container": "/config"
             }]
         },
@@ -172,7 +172,7 @@
             "image": "linuxserver/audacity:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png",
             "name": "Audacity",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/audacity/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/audacity/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -181,7 +181,7 @@
             "title": "Audacity",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/audacity/config",
+                "bind": "/mnt/shared/apps/docker/audacity/config",
                 "container": "/config"
             }]
         },
@@ -196,7 +196,7 @@
             "image": "linuxserver/babybuddy:latest",
             "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png",
             "name": "Babybuddy",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/babybuddy/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/babybuddy/config</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -205,7 +205,7 @@
             "title": "Babybuddy",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/babybuddy/config",
+                "bind": "/mnt/shared/apps/docker/babybuddy/config",
                 "container": "/config"
             }]
         },
@@ -241,15 +241,15 @@
             "title": "bazarr",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/bazarr/config",
+                    "bind": "/mnt/shared/apps/docker/bazarr/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/files/series",
+                    "bind": "/mnt/shared/apps/files/series",
                     "container": "/tv"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/files/films",
+                    "bind": "/mnt/shared/apps/files/films",
                     "container": "/movies"
                 }
             ]
@@ -327,7 +327,7 @@
             "image": "linuxserver/boinc:latest",
             "logo": "https://raw.githubusercontent.com/BOINC/boinc/master/doc/logo/boinc_logo_black.jpg",
             "name": "Boinc",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/boinc/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/boinc/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp"
@@ -336,7 +336,7 @@
             "title": "Boinc",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/boinc/config",
+                "bind": "/mnt/shared/apps/docker/boinc/config",
                 "container": "/config"
             }]
         },
@@ -419,7 +419,7 @@
             "image": "linuxserver/booksonic-air:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-air.png",
             "name": "Booksonic-air",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/booksonic-air/config<br>mkdir -p /mnt/shared/apps-volume/docker/booksonic-air/audiobooks<br>mkdir -p /mnt/shared/apps-volume/docker/booksonic-air/podcasts<br>mkdir -p /mnt/shared/apps-volume/docker/booksonic-air/othermedia</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/booksonic-air/config<br>mkdir -p /mnt/shared/apps/docker/booksonic-air/audiobooks<br>mkdir -p /mnt/shared/apps/docker/booksonic-air/podcasts<br>mkdir -p /mnt/shared/apps/docker/booksonic-air/othermedia</p>",
             "platform": "linux",
             "ports": [
                 "4040:4040/tcp"
@@ -428,19 +428,19 @@
             "title": "Booksonic-air",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/booksonic-air/config",
+                    "bind": "/mnt/shared/apps/docker/booksonic-air/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/booksonic-air/audiobooks",
+                    "bind": "/mnt/shared/apps/docker/booksonic-air/audiobooks",
                     "container": "/audiobooks"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/booksonic-air/podcasts",
+                    "bind": "/mnt/shared/apps/docker/booksonic-air/podcasts",
                     "container": "/podcasts"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/booksonic-air/othermedia",
+                    "bind": "/mnt/shared/apps/docker/booksonic-air/othermedia",
                     "container": "/othermedia"
                 }
             ]
@@ -496,7 +496,7 @@
             "image": "linuxserver/bookstack:latest",
             "logo": "https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/bookstack-logo500x500.png",
             "name": "Bookstack",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/bookstack/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/bookstack/config</p>",
             "platform": "linux",
             "ports": [
                 "6875:80/tcp"
@@ -505,7 +505,7 @@
             "title": "Bookstack",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/bookstack/config",
+                "bind": "/mnt/shared/apps/docker/bookstack/config",
                 "container": "/config"
             }]
         },
@@ -548,7 +548,7 @@
             "image": "linuxserver/calibre:latest",
             "logo": "https://github.com/kovidgoyal/calibre/raw/master/resources/images/lt.png",
             "name": "Calibre",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/calibre/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/calibre/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp",
@@ -558,7 +558,7 @@
             "title": "Calibre",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/calibre/config",
+                "bind": "/mnt/shared/apps/docker/calibre/config",
                 "container": "/config"
             }]
         },
@@ -595,7 +595,7 @@
                     "container": "/books"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/calibre-web/config",
+                    "bind": "/mnt/shared/apps/docker/calibre-web/config",
                     "container": "/config"
                 }
             ]
@@ -705,7 +705,7 @@
             "image": "linuxserver/cloud9:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9.png",
             "name": "Cloud9",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/cloud9/config<br>mkdir -p /mnt/shared/apps-volume/docker/cloud9/code<br></p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/cloud9/config<br>mkdir -p /mnt/shared/apps/docker/cloud9/code<br></p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -714,11 +714,11 @@
             "title": "Cloud9",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/cloud9/config",
+                    "bind": "/mnt/shared/apps/docker/cloud9/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/cloud9/code",
+                    "bind": "/mnt/shared/apps/docker/cloud9/code",
                     "container": "/code"
                 },
                 {
@@ -790,7 +790,7 @@
             "image": "linuxserver/code-server:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-banner.png",
             "name": "Code-server",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/code-server/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/code-server/config</p>",
             "platform": "linux",
             "ports": [
                 "8443:8443/tcp"
@@ -799,7 +799,7 @@
             "title": "Code-server",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/code-server/config",
+                "bind": "/mnt/shared/apps/docker/code-server/config",
                 "container": "/config"
             }]
         },
@@ -830,7 +830,7 @@
             "image": "linuxserver/cops:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cops-icon.png",
             "name": "Cops",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/cops/config<br>mkdir -p /mnt/shared/apps-volume/docker/cops/books</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/cops/config<br>mkdir -p /mnt/shared/apps/docker/cops/books</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -839,11 +839,11 @@
             "title": "Cops",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/cops/config",
+                    "bind": "/mnt/shared/apps/docker/cops/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/cops/books",
+                    "bind": "/mnt/shared/apps/docker/cops/books",
                     "container": "/books"
                 }
             ]
@@ -875,7 +875,7 @@
             "image": "linuxserver/couchpotato:latest",
             "logo": "https://couchpota.to/media/images/full.png",
             "name": "Couchpotato",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/couchpotato/config<br>mkdir -p /mnt/shared/apps-volume/docker/couchpotato/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/couchpotato/movies</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/couchpotato/config<br>mkdir -p /mnt/shared/apps/docker/couchpotato/downloads<br>mkdir -p /mnt/shared/apps/docker/couchpotato/movies</p>",
             "platform": "linux",
             "ports": [
                 "5050:5050/tcp"
@@ -884,15 +884,15 @@
             "title": "Couchpotato",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/couchpotato/config",
+                    "bind": "/mnt/shared/apps/docker/couchpotato/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/couchpotato/downloads",
+                    "bind": "/mnt/shared/apps/docker/couchpotato/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/couchpotato/movies",
+                    "bind": "/mnt/shared/apps/docker/couchpotato/movies",
                     "container": "/movies"
                 }
             ]
@@ -925,17 +925,17 @@
             "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-git.png",
             "name": "Daapd",
             "network": "host",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/daapd/config<br>mkdir -p /mnt/shared/apps-volume/docker/daapd/music</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/daapd/config<br>mkdir -p /mnt/shared/apps/docker/daapd/music</p>",
             "platform": "linux",
             "restart_policy": "unless-stopped",
             "title": "Daapd",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/daapd/config",
+                    "bind": "/mnt/shared/apps/docker/daapd/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/daapd/music",
+                    "bind": "/mnt/shared/apps/docker/daapd/music",
                     "container": "/music"
                 }
             ]
@@ -967,7 +967,7 @@
             "image": "linuxserver/darktable:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/darktable-logo.png",
             "name": "Darktable",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/darktable/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/darktable/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -976,7 +976,7 @@
             "title": "Darktable",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/darktable/config",
+                "bind": "/mnt/shared/apps/docker/darktable/config",
                 "container": "/config"
             }]
         },
@@ -1007,7 +1007,7 @@
             "image": "linuxserver/davos:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/davos/master/docs/list.PNG",
             "name": "Davos",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/davos/config<br>mkdir -p /mnt/shared/apps-volume/docker/davos/download</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/davos/config<br>mkdir -p /mnt/shared/apps/docker/davos/download</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp"
@@ -1016,11 +1016,11 @@
             "title": "Davos",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/davos/config",
+                    "bind": "/mnt/shared/apps/docker/davos/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/davos/download",
+                    "bind": "/mnt/shared/apps/docker/davos/download",
                     "container": "/download"
                 }
             ]
@@ -1052,13 +1052,13 @@
             "image": "linuxserver/ddclient:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png",
             "name": "Ddclient",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/ddclient/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/ddclient/config</p>",
             "platform": "linux",
             "restart_policy": "unless-stopped",
             "title": "Ddclient",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/ddclient/config",
+                "bind": "/mnt/shared/apps/docker/ddclient/config",
                 "container": "/config"
             }]
         },
@@ -1095,7 +1095,7 @@
             "image": "linuxserver/deluge:latest",
             "logo": "https://avatars2.githubusercontent.com/u/6733935?v=3&s=200",
             "name": "Deluge",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/deluge/config<br>mkdir -p /mnt/shared/apps-volume/docker/deluge/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/deluge/config<br>mkdir -p /mnt/shared/apps/docker/deluge/downloads</p>",
             "platform": "linux",
             "ports": [
                 "8112:8112/tcp",
@@ -1106,11 +1106,11 @@
             "title": "Deluge",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/deluge/config",
+                    "bind": "/mnt/shared/apps/docker/deluge/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/deluge/downloads",
+                    "bind": "/mnt/shared/apps/docker/deluge/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -1143,7 +1143,7 @@
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/digikam.png",
             "name": "Digikam",
             "network": "host",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/digikam/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/digikam/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -1152,7 +1152,7 @@
             "title": "Digikam",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/digikam/config",
+                "bind": "/mnt/shared/apps/docker/digikam/config",
                 "container": "/config"
             }]
         },
@@ -1183,7 +1183,7 @@
             "image": "linuxserver/dillinger:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dillinger.png",
             "name": "Dillinger",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/dillinger/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/dillinger/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp"
@@ -1192,7 +1192,7 @@
             "title": "Dillinger",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/dillinger/config",
+                "bind": "/mnt/shared/apps/docker/dillinger/config",
                 "container": "/config"
             }]
         },
@@ -1247,7 +1247,7 @@
             "image": "linuxserver/diskover:latest",
             "logo": "https://raw.githubusercontent.com/diskoverdata/diskover-community/master/diskover-web/public/images/diskover.png",
             "name": "Diskover",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/diskover/config<br>mkdir -p /mnt/shared/apps-volume/docker/diskover/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/diskover/config<br>mkdir -p /mnt/shared/apps/docker/diskover/data</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -1256,11 +1256,11 @@
             "title": "Diskover",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/diskover/config",
+                    "bind": "/mnt/shared/apps/docker/diskover/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/diskover/data",
+                    "bind": "/mnt/shared/apps/docker/diskover/data",
                     "container": "/data"
                 }
             ]
@@ -1289,7 +1289,7 @@
             "image": "linuxserver/docker-compose:latest",
             "logo": "",
             "name": "Docker-compose",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/docker-compose/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/docker-compose/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -1298,7 +1298,7 @@
             "title": "Docker-compose",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/docker-compose/config",
+                "bind": "/mnt/shared/apps/docker/docker-compose/config",
                 "container": "/config"
             }]
         },
@@ -1329,7 +1329,7 @@
             "image": "linuxserver/dokuwiki:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dokuwiki-icon.png",
             "name": "Dokuwiki",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/dokuwiki/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/dokuwiki/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp",
@@ -1339,7 +1339,7 @@
             "title": "Dokuwiki",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/dokuwiki/config",
+                "bind": "/mnt/shared/apps/docker/dokuwiki/config",
                 "container": "/config"
             }]
         },
@@ -1376,7 +1376,7 @@
             "image": "linuxserver/domoticz:latest",
             "logo": "https://github.com/domoticz/domoticz/raw/master/www/images/logo.png",
             "name": "Domoticz",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/domoticz/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/domoticz/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp",
@@ -1387,7 +1387,7 @@
             "title": "Domoticz",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/domoticz/config",
+                "bind": "/mnt/shared/apps/docker/domoticz/config",
                 "container": "/config"
             }]
         },
@@ -1418,7 +1418,7 @@
             "image": "linuxserver/doublecommander:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doublecommander-icon.png",
             "name": "Doublecommander",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/doublecommander/config<br>mkdir -p /mnt/shared/apps-volume/docker/doublecommander/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/doublecommander/config<br>mkdir -p /mnt/shared/apps/docker/doublecommander/data</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -1427,11 +1427,11 @@
             "title": "Doublecommander",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/doublecommander/config",
+                    "bind": "/mnt/shared/apps/docker/doublecommander/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/doublecommander/data",
+                    "bind": "/mnt/shared/apps/docker/doublecommander/data",
                     "container": "/data"
                 }
             ]
@@ -1478,13 +1478,13 @@
             "image": "linuxserver/duckdns:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png",
             "name": "Duckdns",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/duckdns/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/duckdns/config</p>",
             "platform": "linux",
             "restart_policy": "unless-stopped",
             "title": "Duckdns",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/duckdns/config",
+                "bind": "/mnt/shared/apps/docker/duckdns/config",
                 "container": "/config"
             }]
         },
@@ -1518,7 +1518,7 @@
             "image": "linuxserver/duplicati:latest",
             "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png",
             "name": "Duplicati",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/duplicati/config<br>mkdir -p /mnt/shared/apps-volume/docker/duplicati/backups<br>mkdir -p /mnt/shared/apps-volume/docker/duplicati/source</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/duplicati/config<br>mkdir -p /mnt/shared/apps/docker/duplicati/backups<br>mkdir -p /mnt/shared/apps/docker/duplicati/source</p>",
             "platform": "linux",
             "ports": [
                 "8200:8200/tcp"
@@ -1527,15 +1527,15 @@
             "title": "Duplicati",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/duplicati/config",
+                    "bind": "/mnt/shared/apps/docker/duplicati/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/duplicati/backups",
+                    "bind": "/mnt/shared/apps/docker/duplicati/backups",
                     "container": "/backups"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/duplicati/source",
+                    "bind": "/mnt/shared/apps/docker/duplicati/source",
                     "container": "/source"
                 }
             ]
@@ -1567,7 +1567,7 @@
             "image": "linuxserver/emby:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png",
             "name": "Emby",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/emby/config<br>mkdir -p /mnt/shared/apps-volume/docker/emby/data/tvshows<br>mkdir -p /mnt/shared/apps-volume/docker/emby/data/movies<br></p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/emby/config<br>mkdir -p /mnt/shared/apps/docker/emby/data/tvshows<br>mkdir -p /mnt/shared/apps/docker/emby/data/movies<br></p>",
             "platform": "linux",
             "ports": [
                 "8096:8096/tcp",
@@ -1577,15 +1577,15 @@
             "title": "Emby",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/emby/config",
+                    "bind": "/mnt/shared/apps/docker/emby/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/emby/data/tvshows",
+                    "bind": "/mnt/shared/apps/docker/emby/data/tvshows",
                     "container": "/data/tvshows"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/emby/data/movies",
+                    "bind": "/mnt/shared/apps/docker/emby/data/movies",
                     "container": "/data/movies"
                 },
                 {
@@ -1618,7 +1618,7 @@
             "image": "linuxserver/embystat:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/embystat-logo.png",
             "name": "Embystat",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/embystat/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/embystat/config</p>",
             "platform": "linux",
             "ports": [
                 "6555:6555/tcp"
@@ -1627,7 +1627,7 @@
             "title": "Embystat",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/embystat/config",
+                "bind": "/mnt/shared/apps/docker/embystat/config",
                 "container": "/config"
             }]
         },
@@ -1661,7 +1661,7 @@
             "image": "linuxserver/emulatorjs:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png",
             "name": "Emulatorjs",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/emulatorjs/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/emulatorjs/data</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp",
@@ -1672,7 +1672,7 @@
             "title": "Emulatorjs",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/emulatorjs/data",
+                "bind": "/mnt/shared/apps/docker/emulatorjs/data",
                 "container": "/data"
             }]
         },
@@ -1730,7 +1730,7 @@
             "image": "linuxserver/endlessh:latest",
             "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/openssh-server-logo.png",
             "name": "Endlessh",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/endlessh/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/endlessh/config</p>",
             "platform": "linux",
             "ports": [
                 "22:2222/tcp"
@@ -1739,7 +1739,7 @@
             "title": "Endlessh",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/endlessh/config",
+                "bind": "/mnt/shared/apps/docker/endlessh/config",
                 "container": "/config"
             }]
         },
@@ -1767,7 +1767,7 @@
             "image": "linuxserver/ffmpeg:latest",
             "logo": "",
             "name": "Ffmpeg",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/ffmpeg/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/ffmpeg/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -1776,7 +1776,7 @@
             "title": "Ffmpeg",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/ffmpeg/config",
+                "bind": "/mnt/shared/apps/docker/ffmpeg/config",
                 "container": "/config"
             }]
         },
@@ -1804,7 +1804,7 @@
             "image": "linuxserver/filezilla:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png",
             "name": "Filezilla",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/filezilla/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/filezilla/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -1813,7 +1813,7 @@
             "title": "Filezilla",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/filezilla/config",
+                "bind": "/mnt/shared/apps/docker/filezilla/config",
                 "container": "/config"
             }]
         },
@@ -1841,7 +1841,7 @@
             "image": "linuxserver/firefox:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/firefox-logo.png",
             "name": "Firefox",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/firefox/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/firefox/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -1850,7 +1850,7 @@
             "title": "Firefox",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/firefox/config",
+                "bind": "/mnt/shared/apps/docker/firefox/config",
                 "container": "/config"
             }]
         },
@@ -1902,7 +1902,7 @@
             "image": "linuxserver/fleet:latest",
             "logo": "",
             "name": "Fleet",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/fleet/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/fleet/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp"
@@ -1911,7 +1911,7 @@
             "title": "Fleet",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/fleet/config",
+                "bind": "/mnt/shared/apps/docker/fleet/config",
                 "container": "/config"
             }]
         },
@@ -1939,7 +1939,7 @@
             "image": "linuxserver/foldingathome:latest",
             "logo": "https://foldingathome.org/wp-content/uploads/2016/09/folding-at-home-logo.png",
             "name": "Foldingathome",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/foldingathome/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/foldingathome/config</p>",
             "platform": "linux",
             "ports": [
                 "7396:7396/tcp",
@@ -1949,7 +1949,7 @@
             "title": "Foldingathome",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/foldingathome/config",
+                "bind": "/mnt/shared/apps/docker/foldingathome/config",
                 "container": "/config"
             }]
         },
@@ -1977,7 +1977,7 @@
             "image": "linuxserver/freshrss:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-banner.png",
             "name": "Freshrss",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/freshrss/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/freshrss/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -1986,7 +1986,7 @@
             "title": "Freshrss",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/freshrss/config",
+                "bind": "/mnt/shared/apps/docker/freshrss/config",
                 "container": "/config"
             }]
         },
@@ -2017,7 +2017,7 @@
             "image": "linuxserver/grav:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png",
             "name": "Grav",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/grav/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/grav/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -2026,7 +2026,7 @@
             "title": "Grav",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/grav/config",
+                "bind": "/mnt/shared/apps/docker/grav/config",
                 "container": "/config"
             }]
         },
@@ -2054,7 +2054,7 @@
             "image": "linuxserver/grocy:latest",
             "logo": "https://grocy.info/img/grocy_logo.svg",
             "name": "Grocy",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/grocy/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/grocy/config</p>",
             "platform": "linux",
             "ports": [
                 "9283:80/tcp"
@@ -2063,7 +2063,7 @@
             "title": "Grocy",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/grocy/config",
+                "bind": "/mnt/shared/apps/docker/grocy/config",
                 "container": "/config"
             }]
         },
@@ -2111,7 +2111,7 @@
             "image": "linuxserver/habridge:latest",
             "logo": "https://raw.githubusercontent.com/bwssytems/ha-bridge/master/src/main/resources/public/img/favicon.ico",
             "name": "Habridge",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/habridge/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/habridge/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp",
@@ -2121,7 +2121,7 @@
             "title": "Habridge",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/habridge/config",
+                "bind": "/mnt/shared/apps/docker/habridge/config",
                 "container": "/config"
             }]
         },
@@ -2149,7 +2149,7 @@
             "image": "linuxserver/headphones:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/headphones-banner.png",
             "name": "Headphones",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/headphones/config<br>mkdir -p /mnt/shared/apps-volume/docker/headphones/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/headphones/music</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/headphones/config<br>mkdir -p /mnt/shared/apps/docker/headphones/downloads<br>mkdir -p /mnt/shared/apps/docker/headphones/music</p>",
             "platform": "linux",
             "ports": [
                 "8181:8181/tcp"
@@ -2158,15 +2158,15 @@
             "title": "Headphones",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/headphones/config",
+                    "bind": "/mnt/shared/apps/docker/headphones/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/headphones/downloads",
+                    "bind": "/mnt/shared/apps/docker/headphones/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/headphones/music",
+                    "bind": "/mnt/shared/apps/docker/headphones/music",
                     "container": "/music"
                 }
             ]
@@ -2273,7 +2273,7 @@
             "image": "linuxserver/healthchecks:latest",
             "logo": "https://raw.githubusercontent.com/healthchecks/healthchecks/master/static/img/welcome.png",
             "name": "Healthchecks",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/healthchecks/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/healthchecks/config</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -2282,7 +2282,7 @@
             "title": "Healthchecks",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/healthchecks/config",
+                "bind": "/mnt/shared/apps/docker/healthchecks/config",
                 "container": "/config"
             }]
         },
@@ -2361,7 +2361,7 @@
             "image": "linuxserver/hedgedoc:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc-banner.png",
             "name": "Hedgedoc",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/hedgedoc/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/hedgedoc/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -2370,7 +2370,7 @@
             "title": "Hedgedoc",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/hedgedoc/config",
+                "bind": "/mnt/shared/apps/docker/hedgedoc/config",
                 "container": "/config"
             }]
         },
@@ -2398,7 +2398,7 @@
             "image": "linuxserver/heimdall:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png",
             "name": "Heimdall",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /var/mnt/shared/apps-volume/docker/heimdall/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /var/mnt/shared/apps/docker/heimdall/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp",
@@ -2408,7 +2408,7 @@
             "title": "Heimdall",
             "type": 1,
             "volumes": [{
-                "bind": "/var/mnt/shared/apps-volume/docker/heimdall/config",
+                "bind": "/var/mnt/shared/apps/docker/heimdall/config",
                 "container": "/config"
             }]
         },
@@ -2441,7 +2441,7 @@
             "logo": "https://github.com/home-assistant/home-assistant.io/raw/next/source/images/favicon-192x192-full.png",
             "name": "Homeassistant",
             "network": "host",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/homeassistant/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/homeassistant/config</p>",
             "platform": "linux",
             "ports": [
                 "8123:8123/tcp"
@@ -2450,7 +2450,7 @@
             "title": "Homeassistant",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/homeassistant/config",
+                "bind": "/mnt/shared/apps/docker/homeassistant/config",
                 "container": "/config"
             }]
         },
@@ -2481,7 +2481,7 @@
             "image": "linuxserver/ipfs:latest",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ipfs-logo-0-ice-text.png/480px-Ipfs-logo-0-ice-text.png",
             "name": "Ipfs",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/ipfs/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/ipfs/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp",
@@ -2494,7 +2494,7 @@
             "title": "Ipfs",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/ipfs/config",
+                "bind": "/mnt/shared/apps/docker/ipfs/config",
                 "container": "/config"
             }]
         },
@@ -2534,7 +2534,7 @@
             "image": "linuxserver/jackett:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-banner.png",
             "name": "Jackett",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/jackett/config<br>mkdir -p /mnt/shared/apps-volume/docker/jackett/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/jackett/config<br>mkdir -p /mnt/shared/apps/docker/jackett/downloads</p>",
             "platform": "linux",
             "ports": [
                 "9117:9117/tcp"
@@ -2543,11 +2543,11 @@
             "title": "Jackett",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/jackett/config",
+                    "bind": "/mnt/shared/apps/docker/jackett/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/jackett/downloads",
+                    "bind": "/mnt/shared/apps/docker/jackett/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -2582,7 +2582,7 @@
             "image": "linuxserver/jellyfin:latest",
             "logo": "https://jellyfin.org/images/banner-dark.svg",
             "name": "Jellyfin",
-            "note": "Portainer App Templates by <a href='https://github.com/UnconventionalMindset/portainer' target='_blank'>Unconventional Mindset</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/jellyfin/config<br>mkdir -p /mnt/shared/apps-volume/docker/jellyfin/data/tvshows<br>mkdir -p /mnt/shared/apps-volume/docker/jellyfin/data/movies</p>",
+            "note": "Portainer App Templates by <a href='https://github.com/UnconventionalMindset/portainer' target='_blank'>Unconventional Mindset</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/jellyfin/config<br>mkdir -p /mnt/shared/apps/docker/jellyfin/data/tvshows<br>mkdir -p /mnt/shared/apps/docker/jellyfin/data/movies</p>",
             "platform": "linux",
             "ports": [
                 "8096:8096/tcp",
@@ -2595,15 +2595,15 @@
             "title": "Jellyfin",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/jellyfin/config",
+                    "bind": "/mnt/shared/apps/docker/jellyfin/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/files/series",
+                    "bind": "/mnt/shared/apps/files/series",
                     "container": "/data/tvshows"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/files/films",
+                    "bind": "/mnt/shared/apps/files/films",
                     "container": "/data/movies"
                 }
             ]
@@ -2632,7 +2632,7 @@
             "image": "linuxserver/jenkins-builder:latest",
             "logo": "",
             "name": "Jenkins-builder",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/jenkins-builder/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/jenkins-builder/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -2641,7 +2641,7 @@
             "title": "Jenkins-builder",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/jenkins-builder/config",
+                "bind": "/mnt/shared/apps/docker/jenkins-builder/config",
                 "container": "/config"
             }]
         },
@@ -2681,7 +2681,7 @@
             "image": "linuxserver/kanzi:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kanzi.png",
             "name": "Kanzi",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/kanzi/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/kanzi/config</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -2690,7 +2690,7 @@
             "title": "Kanzi",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/kanzi/config",
+                "bind": "/mnt/shared/apps/docker/kanzi/config",
                 "container": "/config"
             }]
         },
@@ -2724,7 +2724,7 @@
             "image": "linuxserver/lazylibrarian:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lazylibrarian-icon.png",
             "name": "Lazylibrarian",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/lazylibrarian/config<br>mkdir -p /mnt/shared/apps-volume/docker/lazylibrarian/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/lazylibrarian/books</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/lazylibrarian/config<br>mkdir -p /mnt/shared/apps/docker/lazylibrarian/downloads<br>mkdir -p /mnt/shared/apps/docker/lazylibrarian/books</p>",
             "platform": "linux",
             "ports": [
                 "5299:5299/tcp"
@@ -2733,15 +2733,15 @@
             "title": "Lazylibrarian",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/lazylibrarian/config",
+                    "bind": "/mnt/shared/apps/docker/lazylibrarian/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/lazylibrarian/downloads",
+                    "bind": "/mnt/shared/apps/docker/lazylibrarian/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/lazylibrarian/books",
+                    "bind": "/mnt/shared/apps/docker/lazylibrarian/books",
                     "container": "/books"
                 }
             ]
@@ -2813,7 +2813,7 @@
             "image": "linuxserver/libreoffice:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/libreoffice-logo.png",
             "name": "Libreoffice",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/libreoffice/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/libreoffice/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -2822,7 +2822,7 @@
             "title": "Libreoffice",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/libreoffice/config",
+                "bind": "/mnt/shared/apps/docker/libreoffice/config",
                 "container": "/config"
             }]
         },
@@ -2898,7 +2898,7 @@
             "image": "linuxserver/librespeed:latest",
             "logo": "https://raw.githubusercontent.com/librespeed/speedtest/master/.logo/logo3.png",
             "name": "Librespeed",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/librespeed/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/librespeed/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -2907,7 +2907,7 @@
             "title": "Librespeed",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/librespeed/config",
+                "bind": "/mnt/shared/apps/docker/librespeed/config",
                 "container": "/config"
             }]
         },
@@ -2935,7 +2935,7 @@
             "image": "linuxserver/lidarr:latest",
             "logo": "https://github.com/lidarr/Lidarr/raw/develop/Logo/400.png",
             "name": "Lidarr",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/lidarr/config<br>mkdir -p /mnt/shared/apps-volume/docker/lidarr/music<br>mkdir -p /mnt/shared/apps-volume/docker/lidarr/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/lidarr/config<br>mkdir -p /mnt/shared/apps/docker/lidarr/music<br>mkdir -p /mnt/shared/apps/docker/lidarr/downloads</p>",
             "platform": "linux",
             "ports": [
                 "8686:8686/tcp"
@@ -2944,15 +2944,15 @@
             "title": "Lidarr",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/lidarr/config",
+                    "bind": "/mnt/shared/apps/docker/lidarr/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/lidarr/music",
+                    "bind": "/mnt/shared/apps/docker/lidarr/music",
                     "container": "/music"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/lidarr/downloads",
+                    "bind": "/mnt/shared/apps/docker/lidarr/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -2981,7 +2981,7 @@
             "image": "linuxserver/limnoria:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-limnoria/master/logo.png",
             "name": "Limnoria",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/limnoria/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/limnoria/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp"
@@ -2990,7 +2990,7 @@
             "title": "Limnoria",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/limnoria/config",
+                "bind": "/mnt/shared/apps/docker/limnoria/config",
                 "container": "/config"
             }]
         },
@@ -3042,7 +3042,7 @@
             "image": "linuxserver/lychee:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lychee-icon.png",
             "name": "Lychee",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/lychee/config<br>mkdir -p /mnt/shared/apps-volume/docker/lychee/pictures</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/lychee/config<br>mkdir -p /mnt/shared/apps/docker/lychee/pictures</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -3051,11 +3051,11 @@
             "title": "Lychee",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/lychee/config",
+                    "bind": "/mnt/shared/apps/docker/lychee/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/lychee/pictures",
+                    "bind": "/mnt/shared/apps/docker/lychee/pictures",
                     "container": "/pictures"
                 }
             ]
@@ -3114,7 +3114,7 @@
             "image": "linuxserver/mariadb:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-git.png",
             "name": "Mariadb",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/mariadb/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/mariadb/config</p>",
             "platform": "linux",
             "ports": [
                 "3306:3306/tcp"
@@ -3123,7 +3123,7 @@
             "title": "Mariadb",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/mariadb/config",
+                "bind": "/mnt/shared/apps/docker/mariadb/config",
                 "container": "/config"
             }]
         },
@@ -3151,7 +3151,7 @@
             "image": "linuxserver/medusa:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png",
             "name": "Medusa",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/medusa/config<br>mkdir -p /mnt/shared/apps-volume/docker/medusa/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/medusa/tv</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/medusa/config<br>mkdir -p /mnt/shared/apps/docker/medusa/downloads<br>mkdir -p /mnt/shared/apps/docker/medusa/tv</p>",
             "platform": "linux",
             "ports": [
                 "8081:8081/tcp"
@@ -3160,15 +3160,15 @@
             "title": "Medusa",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/medusa/config",
+                    "bind": "/mnt/shared/apps/docker/medusa/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/medusa/downloads",
+                    "bind": "/mnt/shared/apps/docker/medusa/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/medusa/tv",
+                    "bind": "/mnt/shared/apps/docker/medusa/tv",
                     "container": "/tv"
                 }
             ]
@@ -3203,7 +3203,7 @@
             "image": "linuxserver/minetest:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png",
             "name": "Minetest",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/minetest/config/.minetest</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/minetest/config/.minetest</p>",
             "platform": "linux",
             "ports": [
                 "30000:30000/udp"
@@ -3212,7 +3212,7 @@
             "title": "Minetest",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/minetest/config/.minetest",
+                "bind": "/mnt/shared/apps/docker/minetest/config/.minetest",
                 "container": "/config/.minetest"
             }]
         },
@@ -3246,7 +3246,7 @@
             "image": "linuxserver/minisatip:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png",
             "name": "Minisatip",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/minisatip/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/minisatip/config</p>",
             "platform": "linux",
             "ports": [
                 "8875:8875/tcp",
@@ -3257,7 +3257,7 @@
             "title": "Minisatip",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/minisatip/config",
+                "bind": "/mnt/shared/apps/docker/minisatip/config",
                 "container": "/config"
             }]
         },
@@ -3285,7 +3285,7 @@
             "image": "linuxserver/mstream:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png",
             "name": "Mstream",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/mstream/config<br>mkdir -p /mnt/shared/apps-volume/docker/mstream/music</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/mstream/config<br>mkdir -p /mnt/shared/apps/docker/mstream/music</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -3294,11 +3294,11 @@
             "title": "Mstream",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/mstream/config",
+                    "bind": "/mnt/shared/apps/docker/mstream/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/mstream/music",
+                    "bind": "/mnt/shared/apps/docker/mstream/music",
                     "container": "/music"
                 }
             ]
@@ -3327,7 +3327,7 @@
             "image": "linuxserver/muximux:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/muximux-icon.png",
             "name": "Muximux",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/muximux/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/muximux/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -3336,7 +3336,7 @@
             "title": "Muximux",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/muximux/config",
+                "bind": "/mnt/shared/apps/docker/muximux/config",
                 "container": "/config"
             }]
         },
@@ -3358,7 +3358,7 @@
             "image": "linuxserver/mylar3:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png",
             "name": "Mylar3",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/mylar3/config<br>mkdir -p /mnt/shared/apps-volume/docker/mylar3/comics<br>mkdir -p /mnt/shared/apps-volume/docker/mylar3/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/mylar3/config<br>mkdir -p /mnt/shared/apps/docker/mylar3/comics<br>mkdir -p /mnt/shared/apps/docker/mylar3/downloads</p>",
             "platform": "linux",
             "ports": [
                 "8090:8090/tcp"
@@ -3367,15 +3367,15 @@
             "title": "Mylar3",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/mylar3/config",
+                    "bind": "/mnt/shared/apps/docker/mylar3/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/mylar3/comics",
+                    "bind": "/mnt/shared/apps/docker/mylar3/comics",
                     "container": "/comics"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/mylar3/downloads",
+                    "bind": "/mnt/shared/apps/docker/mylar3/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -3404,7 +3404,7 @@
             "image": "linuxserver/mysql-workbench:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png",
             "name": "Mysql-workbench",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/mysql-workbench/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/mysql-workbench/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -3413,7 +3413,7 @@
             "title": "Mysql-workbench",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/mysql-workbench/config",
+                "bind": "/mnt/shared/apps/docker/mysql-workbench/config",
                 "container": "/config"
             }]
         },
@@ -3483,7 +3483,7 @@
             "image": "linuxserver/nano:latest",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nano_logo.png/640px-Nano_logo.png",
             "name": "Nano",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/nano/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/nano/config</p>",
             "platform": "linux",
             "ports": [
                 "8075:8075/tcp",
@@ -3494,7 +3494,7 @@
             "title": "Nano",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/nano/config",
+                "bind": "/mnt/shared/apps/docker/nano/config",
                 "container": "/config"
             }]
         },
@@ -3548,7 +3548,7 @@
             "image": "linuxserver/netbootxyz:latest",
             "logo": "https://netboot.xyz/images/netboot.xyz.gif",
             "name": "Netbootxyz",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/netbootxyz/config<br>mkdir -p /mnt/shared/apps-volume/docker/netbootxyz/assets</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/netbootxyz/config<br>mkdir -p /mnt/shared/apps/docker/netbootxyz/assets</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp",
@@ -3559,11 +3559,11 @@
             "title": "Netbootxyz",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/netbootxyz/config",
+                    "bind": "/mnt/shared/apps/docker/netbootxyz/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/netbootxyz/assets",
+                    "bind": "/mnt/shared/apps/docker/netbootxyz/assets",
                     "container": "/assets"
                 }
             ]
@@ -3712,7 +3712,7 @@
             "image": "linuxserver/netbox:latest",
             "logo": "https://raw.githubusercontent.com/netbox-community/netbox/develop/docs/netbox_logo.svg",
             "name": "Netbox",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/netbox/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/netbox/config</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -3721,7 +3721,7 @@
             "title": "Netbox",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/netbox/config",
+                "bind": "/mnt/shared/apps/docker/netbox/config",
                 "container": "/config"
             }]
         },
@@ -3749,7 +3749,7 @@
             "image": "linuxserver/nextcloud:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png",
             "name": "Nextcloud",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/nextcloud/config<br>mkdir -p /mnt/shared/apps-volume/docker/nextcloud/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/nextcloud/config<br>mkdir -p /mnt/shared/apps/docker/nextcloud/data</p>",
             "platform": "linux",
             "ports": [
                 "443:443/tcp"
@@ -3758,11 +3758,11 @@
             "title": "Nextcloud",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/nextcloud/config",
+                    "bind": "/mnt/shared/apps/docker/nextcloud/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/nextcloud/data",
+                    "bind": "/mnt/shared/apps/docker/nextcloud/data",
                     "container": "/data"
                 }
             ]
@@ -3791,7 +3791,7 @@
             "image": "linuxserver/nginx:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png",
             "name": "Nginx",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/nginx/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/nginx/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp",
@@ -3801,7 +3801,7 @@
             "title": "Nginx",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/nginx/config",
+                "bind": "/mnt/shared/apps/docker/nginx/config",
                 "container": "/config"
             }]
         },
@@ -3829,7 +3829,7 @@
             "image": "linuxserver/ngircd:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ngircd-logo.png",
             "name": "Ngircd",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/ngircd/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/ngircd/config</p>",
             "platform": "linux",
             "ports": [
                 "6667:6667/tcp"
@@ -3838,7 +3838,7 @@
             "title": "Ngircd",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/ngircd/config",
+                "bind": "/mnt/shared/apps/docker/ngircd/config",
                 "container": "/config"
             }]
         },
@@ -3878,7 +3878,7 @@
             "image": "linuxserver/nntp2nntp:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nntp2nntp.png",
             "name": "Nntp2nntp",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/nntp2nntp/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/nntp2nntp/config</p>",
             "platform": "linux",
             "ports": [
                 "1563:1563/tcp"
@@ -3887,7 +3887,7 @@
             "title": "Nntp2nntp",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/nntp2nntp/config",
+                "bind": "/mnt/shared/apps/docker/nntp2nntp/config",
                 "container": "/config"
             }]
         },
@@ -3921,7 +3921,7 @@
             "image": "linuxserver/nzbget:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png",
             "name": "Nzbget",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/nzbget/config<br>mkdir -p /mnt/shared/apps-volume/docker/nzbget/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/nzbget/config<br>mkdir -p /mnt/shared/apps/docker/nzbget/downloads</p>",
             "platform": "linux",
             "ports": [
                 "6789:6789/tcp"
@@ -3930,11 +3930,11 @@
             "title": "Nzbget",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/nzbget/config",
+                    "bind": "/mnt/shared/apps/docker/nzbget/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/nzbget/downloads",
+                    "bind": "/mnt/shared/apps/docker/nzbget/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -3963,7 +3963,7 @@
             "image": "linuxserver/nzbhydra2:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png",
             "name": "Nzbhydra2",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/nzbhydra2/config<br>mkdir -p /mnt/shared/apps-volume/docker/nzbhydra2/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/nzbhydra2/config<br>mkdir -p /mnt/shared/apps/docker/nzbhydra2/downloads</p>",
             "platform": "linux",
             "ports": [
                 "5076:5076/tcp"
@@ -3972,11 +3972,11 @@
             "title": "Nzbhydra2",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/nzbhydra2/config",
+                    "bind": "/mnt/shared/apps/docker/nzbhydra2/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/nzbhydra2/downloads",
+                    "bind": "/mnt/shared/apps/docker/nzbhydra2/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -4011,7 +4011,7 @@
             "image": "linuxserver/ombi:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ombi.png",
             "name": "Ombi",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/ombi/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/ombi/config</p>",
             "platform": "linux",
             "ports": [
                 "3579:3579/tcp"
@@ -4020,7 +4020,7 @@
             "title": "Ombi",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/ombi/config",
+                "bind": "/mnt/shared/apps/docker/ombi/config",
                 "container": "/config"
             }]
         },
@@ -4102,7 +4102,7 @@
             "image": "linuxserver/openssh-server:latest",
             "logo": "https://upload.wikimedia.org/wikipedia/en/6/65/OpenSSH_logo.png",
             "name": "Openssh-server",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/openssh-server/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/openssh-server/config</p>",
             "platform": "linux",
             "ports": [
                 "2222:2222/tcp"
@@ -4111,7 +4111,7 @@
             "title": "Openssh-server",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/openssh-server/config",
+                "bind": "/mnt/shared/apps/docker/openssh-server/config",
                 "container": "/config"
             }]
         },
@@ -4163,7 +4163,7 @@
             "image": "linuxserver/openvscode-server:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvscode-server-logo.png",
             "name": "Openvscode-server",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/openvscode-server/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/openvscode-server/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -4172,7 +4172,7 @@
             "title": "Openvscode-server",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/openvscode-server/config",
+                "bind": "/mnt/shared/apps/docker/openvscode-server/config",
                 "container": "/config"
             }]
         },
@@ -4200,7 +4200,7 @@
             "image": "linuxserver/oscam:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/oscam-logo.png",
             "name": "Oscam",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/oscam/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/oscam/config</p>",
             "platform": "linux",
             "ports": [
                 "8888:8888/tcp"
@@ -4209,7 +4209,7 @@
             "title": "Oscam",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/oscam/config",
+                "bind": "/mnt/shared/apps/docker/oscam/config",
                 "container": "/config"
             }]
         },
@@ -4240,7 +4240,7 @@
             "image": "linuxserver/overseerr:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png",
             "name": "Overseerr",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/overseerr/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/overseerr/config</p>",
             "platform": "linux",
             "ports": [
                 "5055:5055/tcp"
@@ -4249,7 +4249,7 @@
             "title": "Overseerr",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/overseerr/config",
+                "bind": "/mnt/shared/apps/docker/overseerr/config",
                 "container": "/config"
             }]
         },
@@ -4283,7 +4283,7 @@
             "image": "linuxserver/paperless-ng:latest",
             "logo": "",
             "name": "Paperless-ng",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/paperless-ng/config<br>mkdir -p /mnt/shared/apps-volume/docker/paperless-ng/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/paperless-ng/config<br>mkdir -p /mnt/shared/apps/docker/paperless-ng/data</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -4292,11 +4292,11 @@
             "title": "Paperless-ng",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/paperless-ng/config",
+                    "bind": "/mnt/shared/apps/docker/paperless-ng/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/paperless-ng/data",
+                    "bind": "/mnt/shared/apps/docker/paperless-ng/data",
                     "container": "/data"
                 }
             ]
@@ -4331,7 +4331,7 @@
             "image": "linuxserver/papermerge:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/papermerge-icon.png",
             "name": "Papermerge",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/papermerge/config<br>mkdir -p /mnt/shared/apps-volume/docker/papermerge/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/papermerge/config<br>mkdir -p /mnt/shared/apps/docker/papermerge/data</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp"
@@ -4340,11 +4340,11 @@
             "title": "Papermerge",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/papermerge/config",
+                    "bind": "/mnt/shared/apps/docker/papermerge/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/papermerge/data",
+                    "bind": "/mnt/shared/apps/docker/papermerge/data",
                     "container": "/data"
                 }
             ]
@@ -4373,7 +4373,7 @@
             "image": "linuxserver/photoshow:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/photoshow-icon.png",
             "name": "Photoshow",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/photoshow/config<br>mkdir -p /mnt/shared/apps-volume/docker/photoshow/Pictures:ro<br>mkdir -p /mnt/shared/apps-volume/docker/photoshow/Thumbs</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/photoshow/config<br>mkdir -p /mnt/shared/apps/docker/photoshow/Pictures:ro<br>mkdir -p /mnt/shared/apps/docker/photoshow/Thumbs</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -4382,15 +4382,15 @@
             "title": "Photoshow",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/photoshow/config",
+                    "bind": "/mnt/shared/apps/docker/photoshow/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/photoshow/Pictures:ro",
+                    "bind": "/mnt/shared/apps/docker/photoshow/Pictures:ro",
                     "container": "/Pictures:ro"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/photoshow/Thumbs",
+                    "bind": "/mnt/shared/apps/docker/photoshow/Thumbs",
                     "container": "/Thumbs"
                 }
             ]
@@ -4434,7 +4434,7 @@
             "image": "linuxserver/phpmyadmin:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/phpmyadmin-logo.png",
             "name": "Phpmyadmin",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/phpmyadmin/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/phpmyadmin/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -4443,7 +4443,7 @@
             "title": "Phpmyadmin",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/phpmyadmin/config",
+                "bind": "/mnt/shared/apps/docker/phpmyadmin/config",
                 "container": "/config"
             }]
         },
@@ -4471,7 +4471,7 @@
             "image": "linuxserver/pidgin:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pidgin-logo.png",
             "name": "Pidgin",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/pidgin/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/pidgin/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -4480,7 +4480,7 @@
             "title": "Pidgin",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/pidgin/config",
+                "bind": "/mnt/shared/apps/docker/pidgin/config",
                 "container": "/config"
             }]
         },
@@ -4508,7 +4508,7 @@
             "image": "linuxserver/piwigo:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png",
             "name": "Piwigo",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/piwigo/config<br>mkdir -p /mnt/shared/apps-volume/docker/piwigo/gallery</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/piwigo/config<br>mkdir -p /mnt/shared/apps/docker/piwigo/gallery</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -4517,11 +4517,11 @@
             "title": "Piwigo",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/piwigo/config",
+                    "bind": "/mnt/shared/apps/docker/piwigo/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/piwigo/gallery",
+                    "bind": "/mnt/shared/apps/docker/piwigo/gallery",
                     "container": "/gallery"
                 }
             ]
@@ -4565,7 +4565,7 @@
             "image": "linuxserver/pixapop:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pixapop.png",
             "name": "Pixapop",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/pixapop/config<br>mkdir -p /mnt/shared/apps-volume/docker/pixapop/photos</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/pixapop/config<br>mkdir -p /mnt/shared/apps/docker/pixapop/photos</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -4574,11 +4574,11 @@
             "title": "Pixapop",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/pixapop/config",
+                    "bind": "/mnt/shared/apps/docker/pixapop/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/pixapop/photos",
+                    "bind": "/mnt/shared/apps/docker/pixapop/photos",
                     "container": "/photos"
                 }
             ]
@@ -4614,21 +4614,21 @@
             "logo": "http://the-gadgeteer.com/wp-content/uploads/2015/10/plex-logo-e1446990678679.png",
             "name": "Plex",
             "network": "host",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/plex/config<br>mkdir -p /mnt/shared/apps-volume/docker/plex/tv<br>mkdir -p /mnt/shared/apps-volume/docker/plex/movies</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/plex/config<br>mkdir -p /mnt/shared/apps/docker/plex/tv<br>mkdir -p /mnt/shared/apps/docker/plex/movies</p>",
             "platform": "linux",
             "restart_policy": "unless-stopped",
             "title": "Plex",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/plex/config",
+                    "bind": "/mnt/shared/apps/docker/plex/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/plex/tv",
+                    "bind": "/mnt/shared/apps/docker/plex/tv",
                     "container": "/tv"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/plex/movies",
+                    "bind": "/mnt/shared/apps/docker/plex/movies",
                     "container": "/movies"
                 }
             ]
@@ -4663,7 +4663,7 @@
             "image": "linuxserver/projectsend:latest",
             "logo": "http://www.projectsend.org/wp-content/themes/projectsend/img/screenshots.png",
             "name": "Projectsend",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/projectsend/config<br>mkdir -p /mnt/shared/apps-volume/docker/projectsend/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/projectsend/config<br>mkdir -p /mnt/shared/apps/docker/projectsend/data</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -4672,11 +4672,11 @@
             "title": "Projectsend",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/projectsend/config",
+                    "bind": "/mnt/shared/apps/docker/projectsend/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/projectsend/data",
+                    "bind": "/mnt/shared/apps/docker/projectsend/data",
                     "container": "/data"
                 }
             ]
@@ -4711,7 +4711,7 @@
             "image": "linuxserver/pwndrop:latest",
             "logo": "https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png",
             "name": "Pwndrop",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/pwndrop/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/pwndrop/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp"
@@ -4720,7 +4720,7 @@
             "title": "Pwndrop",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/pwndrop/config",
+                "bind": "/mnt/shared/apps/docker/pwndrop/config",
                 "container": "/config"
             }]
         },
@@ -4760,7 +4760,7 @@
             "image": "linuxserver/pydio-cells:latest",
             "logo": "https://raw.githubusercontent.com/wiki/pydio/cells/images/PydioCellsColor.png",
             "name": "Pydio-cells",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/pydio-cells/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/pydio-cells/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp",
@@ -4770,7 +4770,7 @@
             "title": "Pydio-cells",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/pydio-cells/config",
+                "bind": "/mnt/shared/apps/docker/pydio-cells/config",
                 "container": "/config"
             }]
         },
@@ -4798,7 +4798,7 @@
             "image": "linuxserver/pyload:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pyload-icon.png",
             "name": "Pyload",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/pyload/config<br>mkdir -p /mnt/shared/apps-volume/docker/pyload/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/pyload/config<br>mkdir -p /mnt/shared/apps/docker/pyload/downloads</p>",
             "platform": "linux",
             "ports": [
                 "8000:8000/tcp",
@@ -4808,11 +4808,11 @@
             "title": "Pyload",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/pyload/config",
+                    "bind": "/mnt/shared/apps/docker/pyload/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/pyload/downloads",
+                    "bind": "/mnt/shared/apps/docker/pyload/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -4859,7 +4859,7 @@
             "image": "linuxserver/pylon:latest",
             "logo": "https://raw.githubusercontent.com/pylonide/pylon/master/doc/screenshot02.png",
             "name": "Pylon",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/pylon/config<br>mkdir -p /mnt/shared/apps-volume/docker/pylon/code</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/pylon/config<br>mkdir -p /mnt/shared/apps/docker/pylon/code</p>",
             "platform": "linux",
             "ports": [
                 "3131:3131/tcp"
@@ -4868,11 +4868,11 @@
             "title": "Pylon",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/pylon/config",
+                    "bind": "/mnt/shared/apps/docker/pylon/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/pylon/code",
+                    "bind": "/mnt/shared/apps/docker/pylon/code",
                     "container": "/code"
                 }
             ]
@@ -4907,7 +4907,7 @@
             "image": "linuxserver/qbittorrent:latest",
             "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png",
             "name": "Qbittorrent",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/qbittorrent/config<br>mkdir -p /mnt/shared/apps-volume/docker/qbittorrent/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/qbittorrent/config<br>mkdir -p /mnt/shared/apps/docker/qbittorrent/downloads</p>",
             "platform": "linux",
             "ports": [
                 "6881:6881/tcp",
@@ -4918,11 +4918,11 @@
             "title": "Qbittorrent",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/qbittorrent/config",
+                    "bind": "/mnt/shared/apps/docker/qbittorrent/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/qbittorrent/downloads",
+                    "bind": "/mnt/shared/apps/docker/qbittorrent/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -4957,7 +4957,7 @@
             "image": "linuxserver/quassel-core:latest",
             "logo": "http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Apps-quassel-icon.png",
             "name": "Quassel-core",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/quassel-core/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/quassel-core/config</p>",
             "platform": "linux",
             "ports": [
                 "4242:4242/tcp",
@@ -4967,7 +4967,7 @@
             "title": "Quassel-core",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/quassel-core/config",
+                "bind": "/mnt/shared/apps/docker/quassel-core/config",
                 "container": "/config"
             }]
         },
@@ -5007,7 +5007,7 @@
             "image": "linuxserver/quassel-web:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-banner.png",
             "name": "Quassel-web",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/quassel-web/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/quassel-web/config</p>",
             "platform": "linux",
             "ports": [
                 "64080:64080/tcp"
@@ -5016,7 +5016,7 @@
             "title": "Quassel-web",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/quassel-web/config",
+                "bind": "/mnt/shared/apps/docker/quassel-web/config",
                 "container": "/config"
             }]
         },
@@ -5044,7 +5044,7 @@
             "image": "linuxserver/radarr:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png",
             "name": "Radarr",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/radarr/config<br>mkdir -p /mnt/shared/apps-volume/docker/radarr/movies<br>mkdir -p /mnt/shared/apps-volume/docker/radarr/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/radarr/config<br>mkdir -p /mnt/shared/apps/docker/radarr/movies<br>mkdir -p /mnt/shared/apps/docker/radarr/downloads</p>",
             "platform": "linux",
             "ports": [
                 "7878:7878/tcp"
@@ -5053,11 +5053,11 @@
             "title": "Radarr",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/radarr/config",
+                    "bind": "/mnt/shared/apps/docker/radarr/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/files/films",
+                    "bind": "/mnt/shared/apps/files/films",
                     "container": "/movies"
                 },
                 {
@@ -5090,7 +5090,7 @@
             "image": "linuxserver/raneto:latest",
             "logo": "https://raw.githubusercontent.com/gilbitron/Raneto/master/logo/logo_readme.png",
             "name": "Raneto",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/raneto/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/raneto/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -5099,7 +5099,7 @@
             "title": "Raneto",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/raneto/config",
+                "bind": "/mnt/shared/apps/docker/raneto/config",
                 "container": "/config"
             }]
         },
@@ -5127,7 +5127,7 @@
             "image": "linuxserver/rdesktop:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rdesktop.png",
             "name": "Rdesktop",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p><br>mkdir -p /mnt/shared/apps-volume/docker/rdesktop/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p><br>mkdir -p /mnt/shared/apps/docker/rdesktop/config</p>",
             "platform": "linux",
             "ports": [
                 "3389:3389/tcp"
@@ -5141,7 +5141,7 @@
                     "container": "/var/run/docker.sock"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/rdesktop/config",
+                    "bind": "/mnt/shared/apps/docker/rdesktop/config",
                     "container": "/config"
                 }
             ]
@@ -5170,7 +5170,7 @@
             "image": "linuxserver/remmina:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/remmina-icon.png",
             "name": "Remmina",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/remmina/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/remmina/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -5179,7 +5179,7 @@
             "title": "Remmina",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/remmina/config",
+                "bind": "/mnt/shared/apps/docker/remmina/config",
                 "container": "/config"
             }]
         },
@@ -5210,7 +5210,7 @@
             "image": "linuxserver/requestrr:latest",
             "logo": "https://github.com/darkalfx/requestrr/raw/master/Logos/requestrr_discord_Icon_512.png",
             "name": "Requestrr",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/requestrr/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/requestrr/config</p>",
             "platform": "linux",
             "ports": [
                 "4545:4545/tcp"
@@ -5219,7 +5219,7 @@
             "title": "Requestrr",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/requestrr/config",
+                "bind": "/mnt/shared/apps/docker/requestrr/config",
                 "container": "/config"
             }]
         },
@@ -5247,7 +5247,7 @@
             "image": "linuxserver/resilio-sync:latest",
             "logo": "https://www.resilio.com/img/individual/freeproduct.jpg",
             "name": "Resilio-sync",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/resilio-sync/config<br>mkdir -p /mnt/shared/apps-volume/docker/resilio-sync/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/resilio-sync/sync</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/resilio-sync/config<br>mkdir -p /mnt/shared/apps/docker/resilio-sync/downloads<br>mkdir -p /mnt/shared/apps/docker/resilio-sync/sync</p>",
             "platform": "linux",
             "ports": [
                 "8888:8888/tcp",
@@ -5257,15 +5257,15 @@
             "title": "Resilio-sync",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/resilio-sync/config",
+                    "bind": "/mnt/shared/apps/docker/resilio-sync/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/resilio-sync/downloads",
+                    "bind": "/mnt/shared/apps/docker/resilio-sync/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/resilio-sync/sync",
+                    "bind": "/mnt/shared/apps/docker/resilio-sync/sync",
                     "container": "/sync"
                 }
             ]
@@ -5294,7 +5294,7 @@
             "image": "linuxserver/rsnapshot:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rsnapshot.png",
             "name": "Rsnapshot",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/rsnapshot/config<br>mkdir -p /mnt/shared/apps-volume/docker/rsnapshot/.snapshots<br>mkdir -p /mnt/shared/apps-volume/docker/rsnapshot/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/rsnapshot/config<br>mkdir -p /mnt/shared/apps/docker/rsnapshot/.snapshots<br>mkdir -p /mnt/shared/apps/docker/rsnapshot/data</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -5303,15 +5303,15 @@
             "title": "Rsnapshot",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/rsnapshot/config",
+                    "bind": "/mnt/shared/apps/docker/rsnapshot/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/rsnapshot/.snapshots",
+                    "bind": "/mnt/shared/apps/docker/rsnapshot/.snapshots",
                     "container": "/.snapshots"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/rsnapshot/data",
+                    "bind": "/mnt/shared/apps/docker/rsnapshot/data",
                     "container": "/data"
                 }
             ]
@@ -5340,7 +5340,7 @@
             "image": "linuxserver/sabnzbd:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png",
             "name": "Sabnzbd",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/sabnzbd/config<br>mkdir -p /mnt/shared/apps-volume/docker/sabnzbd/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/sabnzbd/incomplete-downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sabnzbd/config<br>mkdir -p /mnt/shared/apps/docker/sabnzbd/downloads<br>mkdir -p /mnt/shared/apps/docker/sabnzbd/incomplete-downloads</p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp",
@@ -5350,15 +5350,15 @@
             "title": "Sabnzbd",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/sabnzbd/config",
+                    "bind": "/mnt/shared/apps/docker/sabnzbd/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sabnzbd/downloads",
+                    "bind": "/mnt/shared/apps/docker/sabnzbd/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sabnzbd/incomplete-downloads",
+                    "bind": "/mnt/shared/apps/docker/sabnzbd/incomplete-downloads",
                     "container": "/incomplete-downloads"
                 }
             ]
@@ -5405,7 +5405,7 @@
             "image": "linuxserver/scrutiny:latest",
             "logo": "https://raw.githubusercontent.com/AnalogJ/scrutiny/master/docs/dashboard.png",
             "name": "Scrutiny",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/scrutiny/config<br></p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/scrutiny/config<br></p>",
             "platform": "linux",
             "ports": [
                 "8080:8080/tcp"
@@ -5414,7 +5414,7 @@
             "title": "Scrutiny",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/scrutiny/config",
+                    "bind": "/mnt/shared/apps/docker/scrutiny/config",
                     "container": "/config"
                 },
                 {
@@ -5447,7 +5447,7 @@
             "image": "linuxserver/sickchill:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickchill-banner.png",
             "name": "Sickchill",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/sickchill/config<br>mkdir -p /mnt/shared/apps-volume/docker/sickchill/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/sickchill/tv</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sickchill/config<br>mkdir -p /mnt/shared/apps/docker/sickchill/downloads<br>mkdir -p /mnt/shared/apps/docker/sickchill/tv</p>",
             "platform": "linux",
             "ports": [
                 "8081:8081/tcp"
@@ -5456,15 +5456,15 @@
             "title": "Sickchill",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/sickchill/config",
+                    "bind": "/mnt/shared/apps/docker/sickchill/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sickchill/downloads",
+                    "bind": "/mnt/shared/apps/docker/sickchill/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sickchill/tv",
+                    "bind": "/mnt/shared/apps/docker/sickchill/tv",
                     "container": "/tv"
                 }
             ]
@@ -5487,7 +5487,7 @@
             "image": "linuxserver/sickgear:latest",
             "logo": "https://raw.githubusercontent.com/wiki/SickGear/SickGear.Wiki/images/SickGearLogo.png",
             "name": "Sickgear",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/sickgear/config<br>mkdir -p /mnt/shared/apps-volume/docker/sickgear/tv<br>mkdir -p /mnt/shared/apps-volume/docker/sickgear/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sickgear/config<br>mkdir -p /mnt/shared/apps/docker/sickgear/tv<br>mkdir -p /mnt/shared/apps/docker/sickgear/downloads</p>",
             "platform": "linux",
             "ports": [
                 "8081:8081/tcp"
@@ -5496,15 +5496,15 @@
             "title": "Sickgear",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/sickgear/config",
+                    "bind": "/mnt/shared/apps/docker/sickgear/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sickgear/tv",
+                    "bind": "/mnt/shared/apps/docker/sickgear/tv",
                     "container": "/tv"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sickgear/downloads",
+                    "bind": "/mnt/shared/apps/docker/sickgear/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -5533,7 +5533,7 @@
             "image": "linuxserver/smokeping:latest",
             "logo": "https://camo.githubusercontent.com/e0694ef783e3fd1d74e6776b28822ced01c7cc17/687474703a2f2f6f73732e6f6574696b65722e63682f736d6f6b6570696e672f696e632f736d6f6b6570696e672d6c6f676f2e706e67",
             "name": "Smokeping",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/smokeping/config<br>mkdir -p /mnt/shared/apps-volume/docker/smokeping/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/smokeping/config<br>mkdir -p /mnt/shared/apps/docker/smokeping/data</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -5542,11 +5542,11 @@
             "title": "Smokeping",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/smokeping/config",
+                    "bind": "/mnt/shared/apps/docker/smokeping/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/smokeping/data",
+                    "bind": "/mnt/shared/apps/docker/smokeping/data",
                     "container": "/data"
                 }
             ]
@@ -5575,7 +5575,7 @@
             "image": "linuxserver/snapdrop:latest",
             "logo": "https://raw.githubusercontent.com/RobinLinus/snapdrop/master/client/images/logo_transparent_512x512.png",
             "name": "Snapdrop",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/snapdrop/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/snapdrop/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp",
@@ -5585,7 +5585,7 @@
             "title": "Snapdrop",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/snapdrop/config",
+                "bind": "/mnt/shared/apps/docker/snapdrop/config",
                 "container": "/config"
             }]
         },
@@ -5643,7 +5643,7 @@
             "image": "linuxserver/snipe-it:latest",
             "logo": "https://s3-us-west-2.amazonaws.com/linuxserver-docs/images/snipe-it-logo500x500.png",
             "name": "Snipe-it",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/snipe-it/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/snipe-it/config</p>",
             "platform": "linux",
             "ports": [
                 "8080:80/tcp"
@@ -5652,7 +5652,7 @@
             "title": "Snipe-it",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/snipe-it/config",
+                "bind": "/mnt/shared/apps/docker/snipe-it/config",
                 "container": "/config"
             }]
         },
@@ -5683,7 +5683,7 @@
             "image": "linuxserver/sonarr:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png",
             "name": "Sonarr",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/sonarr/config<br>mkdir -p /mnt/shared/apps-volume/docker/sonarr/tv<br>mkdir -p /mnt/shared/apps-volume/docker/sonarr/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sonarr/config<br>mkdir -p /mnt/shared/apps/docker/sonarr/tv<br>mkdir -p /mnt/shared/apps/docker/sonarr/downloads</p>",
             "platform": "linux",
             "ports": [
                 "8989:8989/tcp"
@@ -5692,11 +5692,11 @@
             "title": "Sonarr",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/sonarr/config",
+                    "bind": "/mnt/shared/apps/docker/sonarr/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/files/series",
+                    "bind": "/mnt/shared/apps/files/series",
                     "container": "/tv"
                 },
                 {
@@ -5729,7 +5729,7 @@
             "image": "linuxserver/sqlitebrowser:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sqlitebrowser-banner.png",
             "name": "Sqlitebrowser",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/sqlitebrowser/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sqlitebrowser/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -5738,7 +5738,7 @@
             "title": "Sqlitebrowser",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/sqlitebrowser/config",
+                "bind": "/mnt/shared/apps/docker/sqlitebrowser/config",
                 "container": "/config"
             }]
         },
@@ -5832,7 +5832,7 @@
             "image": "linuxserver/swag:latest",
             "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/swag.gif",
             "name": "Swag",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/swag/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/swag/config</p>",
             "platform": "linux",
             "ports": [
                 "443:443/tcp",
@@ -5842,7 +5842,7 @@
             "title": "Swag",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/swag/config",
+                "bind": "/mnt/shared/apps/docker/swag/config",
                 "container": "/config"
             }]
         },
@@ -5909,7 +5909,7 @@
             "image": "linuxserver/syncthing:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syncthing-banner.png",
             "name": "Syncthing",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/syncthing/config<br>mkdir -p /mnt/shared/apps-volume/docker/syncthing/data1<br>mkdir -p /mnt/shared/apps-volume/docker/syncthing/data2</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/syncthing/config<br>mkdir -p /mnt/shared/apps/docker/syncthing/data1<br>mkdir -p /mnt/shared/apps/docker/syncthing/data2</p>",
             "platform": "linux",
             "ports": [
                 "8384:8384/tcp",
@@ -5921,15 +5921,15 @@
             "title": "Syncthing",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/syncthing/config",
+                    "bind": "/mnt/shared/apps/docker/syncthing/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/syncthing/data1",
+                    "bind": "/mnt/shared/apps/docker/syncthing/data1",
                     "container": "/data1"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/syncthing/data2",
+                    "bind": "/mnt/shared/apps/docker/syncthing/data2",
                     "container": "/data2"
                 }
             ]
@@ -5961,7 +5961,7 @@
             "image": "linuxserver/syslog-ng:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png",
             "name": "Syslog-ng",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/syslog-ng/config<br></p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/syslog-ng/config<br></p>",
             "platform": "linux",
             "ports": [
                 "514:5514/udp",
@@ -5972,7 +5972,7 @@
             "title": "Syslog-ng",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/syslog-ng/config",
+                    "bind": "/mnt/shared/apps/docker/syslog-ng/config",
                     "container": "/config"
                 },
                 {
@@ -6023,7 +6023,7 @@
             "image": "linuxserver/tautulli:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tautulli-icon.png",
             "name": "Tautulli",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/tautulli/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/tautulli/config</p>",
             "platform": "linux",
             "ports": [
                 "8181:8181/tcp"
@@ -6032,7 +6032,7 @@
             "title": "Tautulli",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/tautulli/config",
+                "bind": "/mnt/shared/apps/docker/tautulli/config",
                 "container": "/config"
             }]
         },
@@ -6060,7 +6060,7 @@
             "image": "linuxserver/thelounge:latest",
             "logo": "https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true",
             "name": "Thelounge",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/thelounge/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/thelounge/config</p>",
             "platform": "linux",
             "ports": [
                 "9000:9000/tcp"
@@ -6069,7 +6069,7 @@
             "title": "Thelounge",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/thelounge/config",
+                "bind": "/mnt/shared/apps/docker/thelounge/config",
                 "container": "/config"
             }]
         },
@@ -6127,7 +6127,7 @@
             "image": "linuxserver/transmission:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/transmission.png",
             "name": "Transmission",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/transmission/config<br>mkdir -p /mnt/shared/apps-volume/docker/transmission/downloads<br>mkdir -p /mnt/shared/apps-volume/docker/transmission/watch</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/transmission/config<br>mkdir -p /mnt/shared/apps/docker/transmission/downloads<br>mkdir -p /mnt/shared/apps/docker/transmission/watch</p>",
             "platform": "linux",
             "ports": [
                 "9091:9091/tcp",
@@ -6138,15 +6138,15 @@
             "title": "Transmission",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/transmission/config",
+                    "bind": "/mnt/shared/apps/docker/transmission/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/transmission/downloads",
+                    "bind": "/mnt/shared/apps/docker/transmission/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/transmission/watch",
+                    "bind": "/mnt/shared/apps/docker/transmission/watch",
                     "container": "/watch"
                 }
             ]
@@ -6181,7 +6181,7 @@
             "image": "linuxserver/tvheadend:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tvheadend-big.png",
             "name": "Tvheadend",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/tvheadend/config<br>mkdir -p /mnt/shared/apps-volume/docker/tvheadend/recordings</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/tvheadend/config<br>mkdir -p /mnt/shared/apps/docker/tvheadend/recordings</p>",
             "platform": "linux",
             "ports": [
                 "9981:9981/tcp",
@@ -6191,11 +6191,11 @@
             "title": "Tvheadend",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/tvheadend/config",
+                    "bind": "/mnt/shared/apps/docker/tvheadend/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/tvheadend/recordings",
+                    "bind": "/mnt/shared/apps/docker/tvheadend/recordings",
                     "container": "/recordings"
                 }
             ]
@@ -6230,7 +6230,7 @@
             "image": "linuxserver/ubooquity:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-banner.png",
             "name": "Ubooquity",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/ubooquity/config<br>mkdir -p /mnt/shared/apps-volume/docker/ubooquity/books<br>mkdir -p /mnt/shared/apps-volume/docker/ubooquity/comics<br>mkdir -p /mnt/shared/apps-volume/docker/ubooquity/files</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/ubooquity/config<br>mkdir -p /mnt/shared/apps/docker/ubooquity/books<br>mkdir -p /mnt/shared/apps/docker/ubooquity/comics<br>mkdir -p /mnt/shared/apps/docker/ubooquity/files</p>",
             "platform": "linux",
             "ports": [
                 "2202:2202/tcp",
@@ -6240,19 +6240,19 @@
             "title": "Ubooquity",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/ubooquity/config",
+                    "bind": "/mnt/shared/apps/docker/ubooquity/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/ubooquity/books",
+                    "bind": "/mnt/shared/apps/docker/ubooquity/books",
                     "container": "/books"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/ubooquity/comics",
+                    "bind": "/mnt/shared/apps/docker/ubooquity/comics",
                     "container": "/comics"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/ubooquity/files",
+                    "bind": "/mnt/shared/apps/docker/ubooquity/files",
                     "container": "/files"
                 }
             ]
@@ -6290,7 +6290,7 @@
             "image": "linuxserver/unifi-controller:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-banner.png",
             "name": "Unifi-controller",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/unifi-controller/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/unifi-controller/config</p>",
             "platform": "linux",
             "ports": [
                 "3478:3478/udp",
@@ -6307,7 +6307,7 @@
             "title": "Unifi-controller",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/unifi-controller/config",
+                "bind": "/mnt/shared/apps/docker/unifi-controller/config",
                 "container": "/config"
             }]
         },
@@ -6335,17 +6335,17 @@
             "image": "linuxserver/webgrabplus:latest",
             "logo": "http://www.webgrabplus.com/sites/default/themes/WgTheme/images/slideshows/EPG_fading.jpg",
             "name": "Webgrabplus",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/webgrabplus/config<br>mkdir -p /mnt/shared/apps-volume/docker/webgrabplus/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/webgrabplus/config<br>mkdir -p /mnt/shared/apps/docker/webgrabplus/data</p>",
             "platform": "linux",
             "restart_policy": "unless-stopped",
             "title": "Webgrabplus",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/webgrabplus/config",
+                    "bind": "/mnt/shared/apps/docker/webgrabplus/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/webgrabplus/data",
+                    "bind": "/mnt/shared/apps/docker/webgrabplus/data",
                     "container": "/data"
                 }
             ]
@@ -6383,7 +6383,7 @@
             "image": "linuxserver/webtop:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webtop-logo.png",
             "name": "Webtop",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/webtop/config<br></p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/webtop/config<br></p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -6393,7 +6393,7 @@
             "title": "Webtop",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/webtop/config",
+                    "bind": "/mnt/shared/apps/docker/webtop/config",
                     "container": "/config"
                 },
                 {
@@ -6426,7 +6426,7 @@
             "image": "linuxserver/wikijs:latest",
             "logo": "https://static.requarks.io/logo/wikijs-full.svg",
             "name": "Wikijs",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/wikijs/config<br>mkdir -p /mnt/shared/apps-volume/docker/wikijs/data</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/wikijs/config<br>mkdir -p /mnt/shared/apps/docker/wikijs/data</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -6435,11 +6435,11 @@
             "title": "Wikijs",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/wikijs/config",
+                    "bind": "/mnt/shared/apps/docker/wikijs/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/wikijs/data",
+                    "bind": "/mnt/shared/apps/docker/wikijs/data",
                     "container": "/data"
                 }
             ]
@@ -6504,7 +6504,7 @@
             "image": "linuxserver/wireguard:latest",
             "logo": "https://www.wireguard.com/img/wireguard.svg",
             "name": "Wireguard",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/wireguard/config<br></p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/wireguard/config<br></p>",
             "platform": "linux",
             "ports": [
                 "51820:51820/udp"
@@ -6513,7 +6513,7 @@
             "title": "Wireguard",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/wireguard/config",
+                    "bind": "/mnt/shared/apps/docker/wireguard/config",
                     "container": "/config"
                 },
                 {
@@ -6547,7 +6547,7 @@
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wireshark-icon.png",
             "name": "Wireshark",
             "network": "host",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/wireshark/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/wireshark/config</p>",
             "platform": "linux",
             "ports": [
                 "3000:3000/tcp"
@@ -6556,7 +6556,7 @@
             "title": "Wireshark",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/wireshark/config",
+                "bind": "/mnt/shared/apps/docker/wireshark/config",
                 "container": "/config"
             }]
         },
@@ -6584,7 +6584,7 @@
             "image": "linuxserver/xbackbone:latest",
             "logo": "https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png",
             "name": "Xbackbone",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/xbackbone/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/xbackbone/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp",
@@ -6594,7 +6594,7 @@
             "title": "Xbackbone",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/xbackbone/config",
+                "bind": "/mnt/shared/apps/docker/xbackbone/config",
                 "container": "/config"
             }]
         },
@@ -6622,7 +6622,7 @@
             "image": "linuxserver/yq:latest",
             "logo": "",
             "name": "Yq",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/yq/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/yq/config</p>",
             "platform": "linux",
             "ports": [
                 "80:80/tcp"
@@ -6631,7 +6631,7 @@
             "title": "Yq",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/yq/config",
+                "bind": "/mnt/shared/apps/docker/yq/config",
                 "container": "/config"
             }]
         },
@@ -6659,7 +6659,7 @@
             "image": "linuxserver/znc:latest",
             "logo": "http://wiki.znc.in/resources/assets/wiki.png",
             "name": "Znc",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps-volume/docker/znc/config</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/znc/config</p>",
             "platform": "linux",
             "ports": [
                 "6501:6501/tcp"
@@ -6668,7 +6668,7 @@
             "title": "Znc",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/znc/config",
+                "bind": "/mnt/shared/apps/docker/znc/config",
                 "container": "/config"
             }]
         },
@@ -7161,7 +7161,7 @@
             "title": "Authelia",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/authelia/config",
+                "bind": "/mnt/shared/apps/docker/authelia/config",
                 "container": "/etc/authelia/"
             }]
         },
@@ -7184,11 +7184,11 @@
             "type": 1,
             "volumes": [
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/apprise-api/vaultwarden/config",
+                    "bind": "/mnt/shared/apps/docker/apprise-api/vaultwarden/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/apprise-api/vaultwarden/data",
+                    "bind": "/mnt/shared/apps/docker/apprise-api/vaultwarden/data",
                     "container": "/data"
                 }
             ]
@@ -7307,7 +7307,7 @@
             "title": "Guacamole",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/guacamole/config",
+                "bind": "/mnt/shared/apps/docker/guacamole/config",
                 "container": "/config"
             }]
         },
@@ -7329,11 +7329,11 @@
             "title": "Homer",
             "type": 1,
             "volumes": [{
-                    "bind": "/mnt/shared/apps-volume/docker/homer/assets",
+                    "bind": "/mnt/shared/apps/docker/homer/assets",
                     "container": "/www/assets"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/homer/config",
+                    "bind": "/mnt/shared/apps/docker/homer/config",
                     "container": "/www/config.yml"
                 }
             ]
@@ -8015,7 +8015,7 @@
             "title": "Bitwarden RS",
             "type": 1,
             "volumes": [{
-                "bind": "/mnt/shared/apps-volume/docker/apprise-api/bitwarden-rs",
+                "bind": "/mnt/shared/apps/docker/apprise-api/bitwarden-rs",
                 "container": "/config"
             }]
         },
