@@ -245,11 +245,11 @@
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/bazarr/tv",
+                    "bind": "/mnt/shared/apps-volume/files/series",
                     "container": "/tv"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/bazarr/movies",
+                    "bind": "/mnt/shared/apps-volume/files/films",
                     "container": "/movies"
                 }
             ]
@@ -2599,11 +2599,11 @@
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/jellyfin/data/tvshows",
+                    "bind": "/mnt/shared/apps-volume/files/series",
                     "container": "/data/tvshows"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/jellyfin/data/movies",
+                    "bind": "/mnt/shared/apps-volume/files/films",
                     "container": "/data/movies"
                 }
             ]
@@ -5057,11 +5057,11 @@
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/radarr/movies",
+                    "bind": "/mnt/shared/apps-volume/files/films",
                     "container": "/movies"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/radarr/downloads",
+                    "bind": "/var/home/core/apps/docker/radarr/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -5696,11 +5696,11 @@
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sonarr/tv",
+                    "bind": "/mnt/shared/apps-volume/files/series",
                     "container": "/tv"
                 },
                 {
-                    "bind": "/mnt/shared/apps-volume/docker/sonarr/downloads",
+                    "bind": "/var/home/core/apps/docker/sonarr/downloads",
                     "container": "/downloads"
                 }
             ]
