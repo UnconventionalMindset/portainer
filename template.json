@@ -5345,7 +5345,7 @@
             "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sabnzbd/config<br>mkdir -p /mnt/shared/apps/docker/sabnzbd/downloads<br>mkdir -p /mnt/shared/apps/docker/sabnzbd/incomplete-downloads</p>",
             "platform": "linux",
             "ports": [
-                "8080:8080/tcp",
+                "8085:8080/tcp",
                 "9090:9090/tcp"
             ],
             "restart_policy": "unless-stopped",
