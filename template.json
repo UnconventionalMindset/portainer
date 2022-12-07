@@ -238,18 +238,18 @@
                 "6767:6767/tcp"
             ],
             "restart_policy": "unless-stopped",
-            "title": "Bazarr",
+            "title": "bazarr",
             "type": 1,
             "volumes": [{
-                    "bind": "/portainer/Files/AppData/Config/Bazarr",
+                    "bind": "/mnt/shared/apps-volume/docker/bazarr/config",
                     "container": "/config"
                 },
                 {
-                    "bind": "/portainer/TV",
+                    "bind": "/mnt/shared/apps-volume/docker/bazarr/tv",
                     "container": "/tv"
                 },
                 {
-                    "bind": "/portainer/Movies",
+                    "bind": "/mnt/shared/apps-volume/docker/bazarr/movies",
                     "container": "/movies"
                 }
             ]
@@ -591,11 +591,11 @@
             "title": "Calibre Web",
             "type": 1,
             "volumes": [{
-                    "bind": "/portainer/Books",
+                    "bind": "/mnt/shared/media/books",
                     "container": "/books"
                 },
                 {
-                    "bind": "/portainer/Files/AppData/Config/Calibre-web",
+                    "bind": "/mnt/shared/apps-volume/docker/calibre-web/config",
                     "container": "/config"
                 }
             ]
@@ -7161,7 +7161,7 @@
             "title": "Authelia",
             "type": 1,
             "volumes": [{
-                "bind": "/portainer/Files/AppData/Config/Authelia",
+                "bind": "/mnt/shared/apps-volume/docker/authelia/config",
                 "container": "/etc/authelia/"
             }]
         },
@@ -7307,7 +7307,7 @@
             "title": "Guacamole",
             "type": 1,
             "volumes": [{
-                "bind": "/portainer/Files/AppData/Config/Guacamole",
+                "bind": "/mnt/shared/apps-volume/docker/guacamole/config",
                 "container": "/config"
             }]
         },
@@ -7329,11 +7329,11 @@
             "title": "Homer",
             "type": 1,
             "volumes": [{
-                    "bind": "/portainer/Files/AppData/Config/Homer/assets",
+                    "bind": "/mnt/shared/apps-volume/docker/homer/assets",
                     "container": "/www/assets"
                 },
                 {
-                    "bind": "/portainer/Files/AppData/Config/Homer",
+                    "bind": "/mnt/shared/apps-volume/docker/homer/config",
                     "container": "/www/config.yml"
                 }
             ]
