@@ -4909,12 +4909,12 @@
             "image": "linuxserver/qbittorrent:latest",
             "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png",
             "name": "qbittorrent",
-            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/qbittorrent/config<br>mkdir -p /mnt/shared/apps/docker/qbittorrent/downloads</p>",
+            "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/qbittorrent/config<br>mkdir -p /var/home/core/apps/docker/qbittorrent/downloads</p>",
             "platform": "linux",
             "ports": [
                 "6881:6881/tcp",
                 "6881:6881/udp",
-                "8084:8080/tcp"
+                "8084:8084/tcp"
             ],
             "restart_policy": "unless-stopped",
             "title": "Qbittorrent",
