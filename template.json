@@ -226,19 +226,21 @@
                     "name": "PGID"
                 },
                 {
+                    "default": "Europe/Zurich",
+                    "description": "Specify a timezone to use for example Europe/Zurich",
                     "label": "TZ",
                     "name": "TZ"
                 }
             ],
             "image": "hotio/bazarr:release",
             "logo": "https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/bazarr.png",
-            "name": "Bazarr",
+            "name": "bazarr",
             "platform": "linux",
             "ports": [
                 "6767:6767/tcp"
             ],
             "restart_policy": "unless-stopped",
-            "title": "bazarr",
+            "title": "Bazarr",
             "type": 1,
             "volumes": [{
                     "bind": "/mnt/shared/apps/docker/bazarr/config",
@@ -2397,7 +2399,7 @@
             ],
             "image": "linuxserver/heimdall:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-banner.png",
-            "name": "Heimdall",
+            "name": "heimdall",
             "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /var/mnt/shared/apps/docker/heimdall/config</p>",
             "platform": "linux",
             "ports": [
@@ -4906,7 +4908,7 @@
             ],
             "image": "linuxserver/qbittorrent:latest",
             "logo": "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/qbittorrent-icon.png",
-            "name": "Qbittorrent",
+            "name": "qbittorrent",
             "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/qbittorrent/config<br>mkdir -p /mnt/shared/apps/docker/qbittorrent/downloads</p>",
             "platform": "linux",
             "ports": [
@@ -4922,7 +4924,7 @@
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps/docker/qbittorrent/downloads",
+                    "bind": "/var/home/core/apps/docker/qbittorrent/downloads",
                     "container": "/downloads"
                 }
             ]
@@ -5043,7 +5045,7 @@
             ],
             "image": "linuxserver/radarr:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png",
-            "name": "Radarr",
+            "name": "radarr",
             "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/radarr/config<br>mkdir -p /mnt/shared/apps/docker/radarr/movies<br>mkdir -p /mnt/shared/apps/docker/radarr/downloads</p>",
             "platform": "linux",
             "ports": [
@@ -5339,7 +5341,7 @@
             ],
             "image": "linuxserver/sabnzbd:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sabnzbd-banner.png",
-            "name": "Sabnzbd",
+            "name": "sabnzbd",
             "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sabnzbd/config<br>mkdir -p /mnt/shared/apps/docker/sabnzbd/downloads<br>mkdir -p /mnt/shared/apps/docker/sabnzbd/incomplete-downloads</p>",
             "platform": "linux",
             "ports": [
@@ -5354,11 +5356,11 @@
                     "container": "/config"
                 },
                 {
-                    "bind": "/mnt/shared/apps/docker/sabnzbd/downloads",
+                    "bind": "/var/home/core/apps/docker/sabnzbd/downloads",
                     "container": "/downloads"
                 },
                 {
-                    "bind": "/mnt/shared/apps/docker/sabnzbd/incomplete-downloads",
+                    "bind": "/var/home/core/apps/docker/sabnzbd/incomplete-downloads",
                     "container": "/incomplete-downloads"
                 }
             ]
@@ -5682,7 +5684,7 @@
             ],
             "image": "linuxserver/sonarr:latest",
             "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png",
-            "name": "Sonarr",
+            "name": "sonarr",
             "note": "Portainer App Templates by <a href='https://www.technorabilia.com' target='_blank'>Technorabilia</a> based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /mnt/shared/apps/docker/sonarr/config<br>mkdir -p /mnt/shared/apps/docker/sonarr/tv<br>mkdir -p /mnt/shared/apps/docker/sonarr/downloads</p>",
             "platform": "linux",
             "ports": [
