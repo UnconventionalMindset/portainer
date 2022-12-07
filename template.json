@@ -4900,7 +4900,7 @@
                     "name": "TZ"
                 },
                 {
-                    "default": "8080",
+                    "default": "8084",
                     "description": "for changing the port of the webui, see below for explanation",
                     "label": "WEBUI_PORT",
                     "name": "WEBUI_PORT"
@@ -4914,7 +4914,7 @@
             "ports": [
                 "6881:6881/tcp",
                 "6881:6881/udp",
-                "8080:8080/tcp"
+                "8084:8080/tcp"
             ],
             "restart_policy": "unless-stopped",
             "title": "Qbittorrent",
